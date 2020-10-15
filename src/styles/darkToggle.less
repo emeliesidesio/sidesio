@@ -1,0 +1,61 @@
+@import "./src/styles/global.less";
+
+.dark-toggle.react-toggle {
+  cursor: pointer;
+  position: relative;
+
+  .react-toggle-thumb {
+    border: none;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: @white;
+    transition: all 0.25s ease;
+    box-shadow: 0 0 2px 2px rgba(#fff, 0.5);
+  }
+
+  .react-toggle-track {
+    width: 70px;
+    height: 34px;
+    border-radius: 30px;
+    background: @candy;
+  }
+
+  .react-toggle-screenreader-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .react-toggle-track-check {
+    position: absolute;
+    left: 8px;
+  }
+
+  .react-toggle-track-x {
+    position: absolute;
+    right: 10px;
+  }
+
+  .react-toggle-track-check,
+  .react-toggle-track-x {
+    font-size: 18px;
+    line-height: 33px;
+    text-shadow: 0 0 #fff;
+    color: transparent;
+  }
+}
+
+.dark-toggle.react-toggle.react-toggle--checked {
+  .react-toggle-thumb {
+    left: 38px;
+  }
+}

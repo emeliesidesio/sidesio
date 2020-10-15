@@ -15,6 +15,8 @@
 @light-grey: #f8f8f8;
 @ocean-mist: #d1e1e0;
 @white: #fff;
+@dark-mode-bg: #003035;
+@dark-mode-text: #eebbbb;
 
 .bg-black {
   background: @black;
@@ -98,8 +100,22 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background-color: @light-grey;
+  background: @light-grey;
   font-family: "Inter", sans-serif;
+}
+
+.dark body {
+  background: @dark-mode-bg;
+
+  .footer,
+  .hero-section {
+    color: @dark-mode-text;
+  }
+
+  .link {
+    color: @dark-mode-text;
+    border-bottom: 1px solid @dark-mode-text;
+  }
 }
 
 ::selection {
@@ -193,6 +209,6 @@ p {
     padding: 0 2rem;
   }
   @media (max-width: @mobile) {
-    margin: 4rem auto 0;
+    margin: 6rem auto 0;
   }
 }

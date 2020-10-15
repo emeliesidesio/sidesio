@@ -1,0 +1,50 @@
+@import "./src/styles/global.less";
+
+.footer {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    @media (max-width: @mobile) {
+      font-size: 18px;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  div {
+    width: 33%;
+  }
+
+  div:nth-child(2) {
+    text-align: center;
+    padding: 0 3rem;
+  }
+
+  div:nth-child(3) {
+    text-align: right;
+  }
+
+  @media (max-width: @tabletHorizontal) {
+    padding: 6rem 2rem;
+  }
+
+  @media (max-width: @tablet) {
+    flex-direction: column;
+    justify-content: center;
+
+    div {
+      width: 100%;
+      text-align: center !important;
+    }
+    & div:not(:last-child) {
+      margin-bottom: 2.5rem;
+    }
+  }
+}

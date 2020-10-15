@@ -1,0 +1,61 @@
+@import "./src/styles/global.less";
+
+.container {
+  margin-top: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  .card {
+    width: 32%;
+    min-height: 22rem;
+    text-align: center;
+    padding: 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    transition: all 0.2s ease-in-out;
+
+    img {
+      width: 2.8rem;
+      margin-bottom: 1rem;
+    }
+
+    @media (min-width: (@tabletHorizontal + 1)) {
+      &:hover {
+        transform: scale(0.96);
+      }
+    }
+
+    @media (max-width: @designBreakpoint) {
+      width: 48%;
+    }
+
+    @media (max-width: @tabletHorizontal) {
+      width: 50%;
+      margin: 0rem;
+    }
+
+    @media (max-width: 700px) {
+      min-height: 20rem;
+      width: 100%;
+      padding: 1rem 1.5rem;
+    }
+  }
+
+  .card-bg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @media (max-width: @mobile) {
+    margin-top: 10rem;
+  }
+}

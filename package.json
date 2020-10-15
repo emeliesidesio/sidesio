@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "emelie-sidesio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A portfolio/resume page",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -19,6 +19,8 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-plugin-react": "^7.21.4",
     "prettier": "2.1.2"
   },
   "repository": {

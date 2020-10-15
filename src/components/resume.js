@@ -21,7 +21,7 @@ export default function Resume() {
         target="_blank"
       >
         <img src={comprend} alt="Comprend logo" />
-        <h3>Comprend</h3>
+        <h2>Comprend</h2>
         <p className="date">2020</p>
         <p>
           As a frontend developer at Comprend I'm developing websites for
@@ -35,7 +35,7 @@ export default function Resume() {
       />
       <div className="card bg-cool-grey">
         <img src={mojang} alt="Mojang logo" />
-        <h3>Mojang</h3>
+        <h2>Mojang</h2>
         <p className="date">2018 / 2019</p>
         <p>
           I worked as a frontend developer in a team responsible for redesigning
@@ -54,7 +54,7 @@ export default function Resume() {
         target="_blank"
       >
         <img src={romanacorreale} alt="Francesca Romana Correale logo" />
-        <h3>Romana Correale</h3>
+        <h2>Romana Correale</h2>
         <p className="date">2019</p>
         <p>
           I designed and developed a portfolio website for fashion designer and
@@ -67,7 +67,7 @@ export default function Resume() {
         target="_blank"
       >
         <img src={technigo} alt="Technigo logo" />
-        <h3>Technigo</h3>
+        <h2>Technigo</h2>
         <p className="date">2017 / 2018</p>
         <p>
           A bootcamp within frontend development. We worked in HTML/CSS/JS with
@@ -76,7 +76,7 @@ export default function Resume() {
       </a>
       <div className="card bg-lavender">
         <img src={hm} alt="H&M logo" />
-        <h3>H&M</h3>
+        <h2>H&M</h2>
         <p className="date">2016 / 2017</p>
         <p>
           I worked in a team of artworkers responsible for the image production
@@ -91,7 +91,7 @@ export default function Resume() {
         target="_blank"
       >
         <img src={hyperisland} alt="Hyper Island logo" />
-        <h3>Hyper Island</h3>
+        <h2>Hyper Island</h2>
         <p className="date">2012 / 2013</p>
         <p>
           I attended the program Motion Graphics, an education within animation
@@ -103,8 +103,8 @@ export default function Resume() {
         style={{ backgroundImage: `url(${dreamcatcher})` }}
       />
       <div className="card bg-black text-white">
-        <img src={ivyrevel} alt="Ivyrevel logo" />
-        <h3>Ivyrevel</h3>
+        <img className="logoBig" src={ivyrevel} alt="Ivyrevel logo" />
+        <h2>Ivyrevel</h2>
         <p className="date">2016</p>
         <p>
           In my role as graphic designer I handled all graphical content. Mainly
@@ -113,7 +113,7 @@ export default function Resume() {
       </div>
       <div className="card bg-ocean-mist">
         <img src={adcn} alt="ADCN logo" />
-        <h3>ADCN</h3>
+        <h2>ADCN</h2>
         <p className="date">2015 / 2016</p>
         <p>
           Creative producer at the Dutch advertising organisation ADCN. I was
@@ -122,8 +122,8 @@ export default function Resume() {
         </p>
       </div>
       <div className="card bg-lavender">
-        <img src={fjallraven} alt="Fjällräven logo" />
-        <h3>Fjällräven</h3>
+        <img className="logoBig" src={fjallraven} alt="Fjällräven logo" />
+        <h2>Fjällräven</h2>
         <p className="date">2013 / 2015</p>
         <p>
           As PIM-Manager at Fjällräven I was responsible for organizing and
